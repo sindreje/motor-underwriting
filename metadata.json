@@ -1,0 +1,33 @@
+{
+  "source": "freMTPL2",
+  "cleaning": {
+    "policies_raw": 678013,
+    "claims_raw": 26639,
+    "claims_without_policy": 195,
+    "policies_removed_too_many_claims": 8,
+    "large_claim_cap": 34513.0125999998,
+    "large_loss_load": 1.3398371062636734,
+    "policies_clean": 678005,
+    "claims_clean": 26373,
+    "exposure_years": 358357.7254629837
+  },
+  "model": {
+    "holdout_policies": 135601,
+    "deviance_explained": 0.018814283937040988,
+    "actual_vs_expected_holdout": 0.9844171897636831
+  },
+  "credibility_k": 6.184703590968327,
+  "credibility_k_interval": [
+    5.5666268577106655,
+    6.949202737019607
+  ],
+  "credibility_validation": {
+    "k_half_sample": 5.376114453372074,
+    "deviance_model_only": 1.3679880114194989,
+    "deviance_experience_only": 4.94394881197371,
+    "deviance_credibility": 1.2964580429405133
+  },
+  "fleets": 11465,
+  "portfolio_frequency": 0.07359406014179588,
+  "portfolio_severity": 1690.706236423614
+}
